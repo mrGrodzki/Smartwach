@@ -42,16 +42,16 @@ _____________________________
 
 V0.9
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/2d%20v_0.9(prot).jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/2d%20v_0.9(prot).jpg)
 
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/3d%20v_0.9(prot).jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/3d%20v_0.9(prot).jpg)
 
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/photo1%20v_0%2C9(prot).jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/photo1%20v_0%2C9(prot).jpg)
 
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/photo2%20v_0%2C9(prot).jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/photo2%20v_0%2C9(prot).jpg)
 
 
 Praca BLE VIDEO: https://youtu.be/vYCpAYbpFlk
@@ -60,10 +60,10 @@ _____________________________
 
 V1.0 Oczekiwanie na dostawę PCB i elementów elektronicznych...
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/2d%20v_1.0.jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/2d%20v_1.0.jpg)
 
 
-![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/img/3d%20v_1.0.jpg)
+![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/3d%20v_1.0.jpg)
 
 _____________________________
 
