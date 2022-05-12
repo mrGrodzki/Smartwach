@@ -13,6 +13,7 @@ _____________________________
 Selection of electronic components in times of difficult availability in warehouses:
 
 Microcontroller: nRF52840 
+   
    - Built-in BLE which allows full communication with a smartphone or auxiliary sensors.
    - 32Mhz SPI, which allows you to quickly update the screen.
    - Very low energy consumption compared to other companies.
@@ -20,7 +21,8 @@ Microcontroller: nRF52840
 Due to the low availability of chips on the market or the overpriced price, I use the module EBYTE E73-2G4M08S1C, which has a chip, necessary parts for work and an antenna.
 
 Sensors:
-   -BMP280 allows you to measure the temperature and pressure of the atmosphere with a fairly high accuracy.
+  
+  -BMP280 allows you to measure the temperature and pressure of the atmosphere with a fairly high accuracy.
    -MPU9250 3-axis accelerometer, gyroscope and magnetometer.
    -MAX30100 pulse and saturation sensor (mounted on the housing).
    -APDS-9960 a light sensor, as well as a gesture detection tool that you can use to control the device.
