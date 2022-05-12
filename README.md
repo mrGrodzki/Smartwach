@@ -1,45 +1,40 @@
 # Smartwach
 
-Pomysł:
+## Idea:
+To create a universal tool for writing and testing algorithms to detect human activity and interact with him in a convenient way.
 
-Stworzyć uniwersalne narzędzie do napisania i testowania algorytmów do wykrywania  aktywności czlowieka i interakcji z nim w wygodny sposób.
+In addition, one of the tasks of the device is to retrain from a smartwatch to a sports tool.
+For example, a cyclist - the clock is mounted on the handlebar, it connects the sensors for cadence and speed, wind speed, accelerometer via bluetooth. with the help of which you can absolutely accurately describe the cyclist, what power he performs in what time, how he reacts to climbs and descents.
 
-Ponadto jednym z zadań urządzenia jest przekwalifikowanie się ze smartwatcha na narzędzie sportowe.
-Np. rowerzysta – zegar jest montowany na kierownicy, łączy czujniki rytmu i prędkości, prędkość wiatru, akcelerometr przez bluetooth. za pomocą którego można absolutnie dokładnie opisać rowerzystę, jaką moc wykonuje w jakim czasie, jak reaguje na podjazdy i zjazdy.
-
-Zadania sprzętowe:
-   - Moduł GPS.
-   - Układ do pomiaru zużycia energii elektrycznej, do obliczenia dokładnego czasu pracy.
+## Hardware tasks:
+   - Module GPS.
+   - Electricity consumption measuring system to calculate the exact working time.
 _____________________________
-Dobór komponentów elektronicznych w czasach trudnej dostępności w magazynach:
+Selection of electronic components in times of difficult availability in warehouses:
 
-Mikrokontroler: nRF52840 
-   - Wbudowany BLE co pozwala w pełni komunikować się ze smartfonem lub czujnikami pomocniczymi.
-   - 32Mhz SPI, co pozwala szybko zaktualizować ekran.
-   - Bardzo niskie zużycie energii w porównaniu do innych firm.
+Microcontroller: nRF52840 
+   - Built-in BLE which allows full communication with a smartphone or auxiliary sensors.
+   - 32Mhz SPI, which allows you to quickly update the screen.
+   - Very low energy consumption compared to other companies.
 
-Ze względu na małą dostępność chipów na rynku lub zawyżoną cenę używam modułu firmy EBYTE E73-2G4M08S1C, który posiada chip, niezbędne części do pracy oraz antenę.
+Due to the low availability of chips on the market or the overpriced price, I use the module EBYTE E73-2G4M08S1C, which has a chip, necessary parts for work and an antenna.
 
-Сzujniki:
-   -BMP280 pozwala zmierzyć temperaturę i ciśnienie atmosfery z dość dużą dokładnością.
-   -MPU9250 3-osiowy akcelerometr, żyroskop i magnetometr.
-   -MAX30100 czujnik tętna i saturacji (montowany na obudowie)
-   -APDS-9960 czujnik światła, a także narzędzie do wykrywania gestów, za pomocą którego można sterować urządzeniem
+Sensors:
+   -BMP280 allows you to measure the temperature and pressure of the atmosphere with a fairly high accuracy.
+   -MPU9250 3-axis accelerometer, gyroscope and magnetometer.
+   -MAX30100 pulse and saturation sensor (mounted on the housing).
+   -APDS-9960 a light sensor, as well as a gesture detection tool that you can use to control the device.
 
-Za pomocą tych dwóch czujników można dość dokładnie odczytać aktywność człowieka.
-Przykład:
-   -liczba wykonanych kroków + pod jakim kątem do horyzontu.
-   -różne aktywności fizyczne: bieganie, jazda na rowerze, pływanie itp.
+With the help of these two sensors, human activity can be read quite accurately.
+Example:
+    -number of steps taken + at what angle to the horizon.
+    -various physical activities: running, cycling, swimming, etc.
 
-Wersja 0.9 jest stworzona do sprawdzania czujników, napisania testowego firmware w celu sprawdzenia funkcjonalności juz v1.0 PCB. 
-Również w celu sprawdzenia stabilności połączeń Bluetooth i algorytmów obliczania aktywności.
-
-
+Version 0.9 is designed to check sensors, write test firmware to check functionality already v1.0 PCB.
+Also to check the stability of Bluetooth connections and activity calculation algorithms.
 
 
-
-_____________________________
-
+## HW 
 V0.9
 
 ![Alt Text](https://github.com/mrGrodzki/Smartwach/blob/main/HW/2d%20v_0.9(prot).jpg)
